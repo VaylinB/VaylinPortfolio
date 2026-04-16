@@ -1,7 +1,7 @@
-import rest from '../assets/rest.png'
-import rest1 from '../assets/rest1.png'
+import { rest, rest1 } from './rest.js'
 import { swift, swift1 } from './swift.js'
 import { trans, trans1 } from './trans.js'
+import { hack, hack1 } from './hack.js'
 export const featuredProjects = [
   {
     id: 'studio-luma',
@@ -25,7 +25,7 @@ I had the opportunity to present alongside Lucy, and contributed to the project 
     year: '2025',
     href: 'https://commoncore.hku.hk/students/student-awards/',
     summary: 'I took part building Pill Pal, an AI-powered medication adherence app, during a GenAI Hackathon. Our team placed 2nd Runner Up and won HKD$2,000.',
-    popupImage: '/src/assets/hack1.png',
+    popupImage: hack1,
     detailedDescription: `After an intense week of sleepless nights, countless iterations, and coffee-fueled brainstorming sessions, our team, Beauties and the Beast proudly won 🥉 3rd Place (Bronze) in Track 2: Resilient & Adaptable Communities at The 2025 Hong Kong Inter-University GenAI Hackathon for Sustainable Development Goals!
 I developed the frontend using SwiftUI, designed intuitive UI flows for smart reminders and pill recognition, and collaborated closely with teammates under tight deadlines.
 Our project began with a simple, painful insight:
@@ -39,7 +39,7 @@ And that's how Pill Pal was born. An AI-powered mobile app that helps older adul
 The journey wasn't easy. There were nights when the OCR didn't read the labels correctly, the UI crashed, or we questioned if our idea was even feasible. But we kept going by debugging, testing, and refining until everything finally came together.
 
 We spent days rehearsing our pitch, debating every slide, refining every transition. By the finals, one judge told us it was "the best presentation of the year", and another even encouraged us to apply to Y Combinator. Hearing that made every late night worth it.`,
-    image: '/src/assets/hack.png',
+    image: hack,
   },
   {
     id: 'northstar-dashboard',
@@ -47,7 +47,7 @@ We spent days rehearsing our pitch, debating every slide, refining every transit
     category: 'Competition',
     year: '2024',
     href: '#',
-    summary: 'I created a science simulation application for under privilege students using SwiftUI playgrounds. Chosen by apple develoeprs to present @america.',
+    summary: 'I created a science simulation application for under privileged students using SwiftUI playgrounds. Chosen by Apple developers to present @america.',
     popupImage: swift1,
     detailedDescription: `Trained with Apple developers to design and build a lab simulation app aimed at supporting less privileged students in accessing practical learning experiences. The app provides virtual lab environments to help students develop hands-on skills despite resource limitations. Received recognition for the project through the program and had the opportunity to present the work at @america, showcasing the impact of technology in promoting educational equity.`,
     image: swift,
