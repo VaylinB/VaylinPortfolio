@@ -690,4 +690,38 @@ h1 span {
     width: 42px;
     height: 42px;
   }
+
+  @media (max-width: 768px) {
+    .project-list {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      padding: 18px;
+    }
+
+    .project-meta-row h3 {
+      font-size: 1.8rem;
+    }
+
+    .websites-grid {
+      flex-direction: column !important;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .website-item img {
+      height: 250px !important;
+    }
+
+    .intro-kicker {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+  }
 }

@@ -65,7 +65,7 @@ export default function ProjectsPage({ motionPreset }) {
         <div className="title-row">
           <h2>Websites Designs</h2>
         </div>
-        <div className="websites-grid" style={{display: 'flex', gap: '2rem'}}>
+        <div className="websites-grid">
 
 
           <div className="website-item">
