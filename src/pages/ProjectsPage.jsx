@@ -3,6 +3,9 @@ import { useState } from 'react'
 import ProjectModal from '../components/ProjectModal'
 import PageTransition from '../components/PageTransition'
 import { featuredProjects } from '../data/projects'
+import chat from '../assets/chat.png'
+import nusan from '../assets/nusan.png'
+import hack from '../assets/hack.png'
 
 export default function ProjectsPage({ motionPreset }) {
   const [isRestureModalOpen, setIsRestureModalOpen] = useState(false);
@@ -107,17 +110,17 @@ export default function ProjectsPage({ motionPreset }) {
 
 
           <div className="website-item">
-            <img src="/src/assets/chat.png" alt="Chatelier " style={{width: '100%', height: '300px', objectFit: 'contain', borderRadius: '12px'}} />
+            <img src="chat" alt="Chatelier " style={{width: '100%', height: '300px', objectFit: 'contain', borderRadius: '12px'}} />
             <h4>Chatelier (ReactJS)</h4>
             <a href="https://chatelier-eight.vercel.app/" className="project-link" target="_blank" rel="noreferrer">Visit ↗</a>
           </div>
           <div className="website-item">
-            <img src="/src/assets/nusan.png" alt="Nusantara Carry" style={{width: '100%', height: '300px', objectFit: 'contain', borderRadius: '12px'}} />
+            <img src="nusan" alt="Nusantara Carry" style={{width: '100%', height: '300px', objectFit: 'contain', borderRadius: '12px'}} />
             <h4>Nusantara Carry (HTML)</h4>
             <a href="https://nusantara-carry.vercel.app/" className="project-link" target="_blank" rel="noreferrer">Visit ↗</a>
           </div>
           <div className="website-item">
-            <img src="/src/assets/fig.png" alt="Chatelier Figma" style={{width: '100%', height: '300px', objectFit: 'contain', borderRadius: '12px'}} />
+            <img src="fig" alt="Chatelier Figma" style={{width: '100%', height: '300px', objectFit: 'contain', borderRadius: '12px'}} />
             <h4>Chatelier (Figma)</h4>
             <a href="https://carol-margin-62431646.figma.site/reviews" className="project-link" target="_blank" rel="noreferrer">Visit ↗</a>
           </div>
